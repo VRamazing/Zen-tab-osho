@@ -217,6 +217,18 @@ body {
   transform: translateY(0);
 }
 
+.quote-author {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 1.25rem 0 0;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  color: rgba(253, 249, 242, 0.82);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
 .quote-meta {
   margin-top: 1.75rem;
   display: flex;
