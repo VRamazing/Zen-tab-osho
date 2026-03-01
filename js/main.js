@@ -31,7 +31,10 @@ const BACKGROUNDS = [
   { id: "orchid", path: "assets/backgrounds/bg-orchid.svg", tone: "light" },
   { id: "dawn", path: "assets/backgrounds/bg-dawn.svg", tone: "light" },
   { id: "aurora", path: "assets/backgrounds/bg-aurora.svg", tone: "light" },
-  { id: "meadow", path: "assets/backgrounds/bg-meadow.svg", tone: "light" }
+  { id: "meadow", path: "assets/backgrounds/bg-meadow.svg", tone: "light" },
+  { id: "halo", path: "assets/backgrounds/bg-halo.svg", tone: "light" },
+  { id: "serene", path: "assets/backgrounds/bg-serene.svg", tone: "light" },
+  { id: "lagoon", path: "assets/backgrounds/bg-lagoon.svg", tone: "light" }
 ];
 
 const BACKGROUND_FADE_CLASS = "is-fading";

@@ -198,5 +198,169 @@ export const quotes = [
   {
     text: "Love matures when you celebrate the mystery you cannot solve.",
     category: "love"
+  },
+  {
+    text: "Awareness is the rain that softens the soil of your habits.",
+    category: "awareness"
+  },
+  {
+    text: "Life is a caravan of moments—travel slower if you wish to arrive awake.",
+    category: "life"
+  },
+  {
+    text: "Meditation is inviting your breath to sit beside you like an old friend.",
+    category: "meditation"
+  },
+  {
+    text: "Love is simplest when you let gratitude speak before desire.",
+    category: "love"
+  },
+  {
+    text: "Awareness grows when you greet discomfort with curiosity instead of judgment.",
+    category: "awareness"
+  },
+  {
+    text: "Life is quieter when you retire from predicting other people’s weather.",
+    category: "life"
+  },
+  {
+    text: "Meditation remembers the still lake beneath your mind’s surface waves.",
+    category: "meditation"
+  },
+  {
+    text: "Love is a verb that edits every sentence it speaks for kindness.",
+    category: "love"
+  },
+  {
+    text: "Awareness is the lantern you carry into conversations with yourself.",
+    category: "awareness"
+  },
+  {
+    text: "Life plants seeds in every pause—listen for the roots taking hold.",
+    category: "life"
+  },
+  {
+    text: "Meditation is the art of letting the present moment introduce itself again.",
+    category: "meditation"
+  },
+  {
+    text: "Awareness is the courage to interrupt yourself mid-story.",
+    category: "awareness"
+  },
+  {
+    text: "Life expands for those who keep promises to their mornings.",
+    category: "life"
+  },
+  {
+    text: "Meditation is the rehearsal for the conversations you'll have with your own heart.",
+    category: "meditation"
+  },
+  {
+    text: "Love is the skill of seeing the sacred in someone's ordinary.",
+    category: "love"
+  },
+  {
+    text: "Awareness sharpens when you track the subtleties of your reactions.",
+    category: "awareness"
+  },
+  {
+    text: "Life becomes lighter when you trade multitasking for mindful tasting.",
+    category: "life"
+  },
+  {
+    text: "Meditation is a workshop where silence apprentices your thoughts.",
+    category: "meditation"
+  },
+  {
+    text: "Love is the art of offering attention without agenda.",
+    category: "love"
+  },
+  {
+    text: "Awareness whispers, control shouts—listen for the whisper.",
+    category: "awareness"
+  },
+  {
+    text: "Life is a canvas that prefers bold strokes of honesty.",
+    category: "life"
+  },
+  {
+    text: "Meditation reminds you that patience is a breathing pattern, not a personality trait.",
+    category: "meditation"
+  },
+  {
+    text: "Love grows roots when you practice delighting in another's growth.",
+    category: "love"
+  },
+  {
+    text: "Awareness means noticing the urge before you obey it.",
+    category: "awareness"
+  },
+  {
+    text: "Life tutors the humble by repeating lessons until gratitude appears.",
+    category: "life"
+  },
+  {
+    text: "Meditation lets you taste the interval between stimulus and response.",
+    category: "meditation"
+  },
+  {
+    text: "Love is the quiet confidence that nothing shared with compassion is wasted.",
+    category: "love"
+  },
+  {
+    text: "Awareness invites you to host paradox at the same table.",
+    category: "awareness"
+  },
+  {
+    text: "Life rewards rest as much as pursuit; both are steps of the same dance.",
+    category: "life"
+  },
+  {
+    text: "Meditation is the daily reset that keeps your inner compass calibrated.",
+    category: "meditation"
+  },
+  {
+    text: "Love is generosity with your curiosity, not just your time.",
+    category: "love"
+  },
+  {
+    text: "Awareness is the discipline of checking in before checking out.",
+    category: "awareness"
+  },
+  {
+    text: "Life feels sacred when you bless the mundane chores you once escaped.",
+    category: "life"
+  },
+  {
+    text: "Meditation gives your nervous system a chair to sit in.",
+    category: "meditation"
+  },
+  {
+    text: "Love is the patience to let someone bloom on their timing.",
+    category: "love"
+  },
+  {
+    text: "Awareness balances courage with discernment.",
+    category: "awareness"
+  },
+  {
+    text: "Life brightens when you invite play into your plans.",
+    category: "life"
+  },
+  {
+    text: "Meditation is the science of simplifying the inner landscape.",
+    category: "meditation"
+  },
+  {
+    text: "Love listens for the emotion under the complaint.",
+    category: "love"
+  },
+  {
+    text: "Awareness is refusing to let your history narrate your future.",
+    category: "awareness"
+  },
+  {
+    text: "Life steadies when intention leads your calendar.",
+    category: "life"
   }
 ];

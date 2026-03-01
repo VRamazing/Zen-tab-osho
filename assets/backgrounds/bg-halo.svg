@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="haloSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffef9" />
+      <stop offset="50%" stop-color="#ffe6d5" />
+      <stop offset="100%" stop-color="#ffd4f3" />
+    </linearGradient>
+    <radialGradient id="haloSun" cx="0.3" cy="0.25" r="0.6">
+      <stop offset="0%" stop-color="#fff2c2" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffd7a0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#haloSky)" />
+  <circle cx="540" cy="240" r="420" fill="url(#haloSun)" />
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2">
+    <path d="M0 700 C240 640 480 720 720 680 C960 640 1200 720 1440 680 C1680 640 1920 700 1920 700" />
+    <path d="M0 840 C260 780 520 860 780 820 C1040 780 1300 860 1560 820 C1820 780 1920 820 1920 820" />
+  </g>
+  <g opacity="0.35">
+    <circle cx="1520" cy="220" r="120" fill="#ffeef7" />
+    <circle cx="1240" cy="340" r="200" fill="#ffe8dd" />
+    <circle cx="360" cy="860" r="180" fill="#ffe0f0" />
+  </g>
+</svg>

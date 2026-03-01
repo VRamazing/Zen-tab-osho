@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sereneSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fefeff" />
+      <stop offset="60%" stop-color="#e4f6ff" />
+      <stop offset="100%" stop-color="#d1ecff" />
+    </linearGradient>
+    <linearGradient id="sereneHills" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dff6ff" />
+      <stop offset="100%" stop-color="#8ed3ff" />
+    </linearGradient>
+    <linearGradient id="sereneSea" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b5eaff" />
+      <stop offset="100%" stop-color="#9ad4ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sereneSky)" />
+  <circle cx="1360" cy="220" r="260" fill="#fff4d0" opacity="0.6" />
+  <path d="M0 720 C240 680 520 780 720 760 C920 740 1180 800 1440 760 C1700 720 1860 760 1920 760 V1080 H0Z" fill="url(#sereneHills)" />
+  <path d="M0 880 C260 860 520 920 780 900 C1040 880 1300 940 1560 900 C1820 860 1920 900 1920 900 V1080 H0Z" fill="url(#sereneSea)" />
+  <g opacity="0.35" fill="#ffffff">
+    <circle cx="260" cy="820" r="30" />
+    <circle cx="620" cy="930" r="24" />
+    <circle cx="1180" cy="860" r="32" />
+    <circle cx="1660" cy="940" r="26" />
+  </g>
+</svg>
