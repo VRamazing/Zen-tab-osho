@@ -10,23 +10,25 @@
     <div class="background" aria-hidden="true"></div>
     <div class="background-overlay"></div>
     <main class="zen-shell" role="main">
-      <header class="zen-header">
-        <span class="badge" id="quoteCategory">Meditation</span>
-        <div class="time-cluster" aria-live="polite">
-          <span class="clock" id="clockDisplay" aria-label="Current time">--:--</span>
-          <span class="date" id="dateDisplay" aria-label="Current date">Weekday, Month 00</span>
-        </div>
-      </header>
-      <section class="quote-card" aria-live="polite">
-        <p class="quote-text" id="quoteText" role="button" tabindex="0">Loading serenity...</p>
-        <div class="quote-meta">
-          <button class="ghost" id="favoriteBtn" aria-pressed="false">Favorite</button>
-        </div>
+      <section class="zen-hero">
+        <section class="quote-card" aria-live="polite">
+          <p class="quote-text" id="quoteText" role="button" tabindex="0">Loading serenity...</p>
+          <div class="quote-meta">
+            <button class="ghost" id="favoriteBtn" aria-pressed="false">Favorite</button>
+          </div>
+        </section>
+        <section class="time-panel" aria-labelledby="timeHeading">
+          <h2 id="timeHeading" class="sr-only">Current time</h2>
+          <div class="time-cluster" aria-live="polite">
+            <span class="clock" id="clockDisplay" aria-label="Current time">--:--</span>
+            <span class="date" id="dateDisplay" aria-label="Current date">Weekday, Month 00</span>
+          </div>
+          <div class="osho-emblem" aria-hidden="true"></div>
+        </section>
       </section>
-      <footer class="zen-footer">
-        <button class="primary" id="newQuoteBtn">New Quote</button>
-      </footer>
-      <div class="osho-emblem" aria-hidden="true"></div>
+      <section class="action-panel">
+        <button class="primary primary--wide" id="newQuoteBtn" type="button">Shuffle Quote</button>
+      </section>
     </main>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script type="module" src="js/main.js"></script>

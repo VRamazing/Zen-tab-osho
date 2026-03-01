@@ -3,7 +3,6 @@ import { quotes } from "./quotes.js";
 const SELECTORS = {
   background: document.querySelector(".background"),
   quoteText: document.getElementById("quoteText"),
-  quoteCategory: document.getElementById("quoteCategory"),
   newQuoteBtn: document.getElementById("newQuoteBtn"),
   favoriteBtn: document.getElementById("favoriteBtn"),
   clockDisplay: document.getElementById("clockDisplay"),
@@ -87,13 +86,6 @@ function persistFavorites() {
   Storage.write(STORAGE_KEYS.favorites, Array.from(state.favorites));
 }
 
-function formatCategory(label) {
-  if (!label) {
-    return "";
-  }
-  return label.charAt(0).toUpperCase() + label.slice(1);
-}
-
 function getQuotesPool() {
   if (state.settings.quoteCategory === "all") {
     return quotes;
@@ -112,6 +104,24 @@ function getRandomQuote() {
   return pool[index];
 }
 
+function applyResponsiveQuoteSize(text = "") {
+  if (!SELECTORS.quoteText) {
+    return;
+  }
+  const length = text.length;
+  let fontSize = "";
+  let lineHeight = "";
+  if (length > 240) {
+    fontSize = "clamp(1.3rem, 3vw, 2.2rem)";
+    lineHeight = "1.25";
+  } else if (length > 180) {
+    fontSize = "clamp(1.5rem, 3.4vw, 2.6rem)";
+    lineHeight = "1.28";
+  }
+  SELECTORS.quoteText.style.fontSize = fontSize;
+  SELECTORS.quoteText.style.lineHeight = lineHeight || "";
+}
+
 function setQuote(quote) {
   if (!quote || !SELECTORS.quoteText) {
     return;
@@ -120,7 +130,7 @@ function setQuote(quote) {
   SELECTORS.quoteText.classList.remove("visible");
   requestAnimationFrame(() => {
     SELECTORS.quoteText.textContent = quote.text;
-    SELECTORS.quoteCategory.textContent = formatCategory(quote.category);
+    applyResponsiveQuoteSize(quote.text);
     SELECTORS.quoteText.classList.add("visible");
     const isFavorite = state.favorites.has(quote.text);
     SELECTORS.favoriteBtn?.setAttribute("aria-pressed", String(isFavorite));
