@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Rajneesh Zen Tab",
+  "version": "1.0.0",
+  "description": "Transforms the new tab into a serene space with random Rajneesh quotes, calming imagery, and a live clock.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_title": "Rajneesh Zen Tab"
+  },
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "48": "assets/icons/icon-48.png",
+    "128": "assets/icons/icon-128.png"
+  }
+}

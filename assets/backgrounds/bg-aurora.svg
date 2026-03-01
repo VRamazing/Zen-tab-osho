@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="auroraSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fefbff" />
+      <stop offset="50%" stop-color="#dfe9ff" />
+      <stop offset="100%" stop-color="#ffe8f6" />
+    </linearGradient>
+    <radialGradient id="auroraGlow" cx="0.75" cy="0.25" r="0.5">
+      <stop offset="0%" stop-color="#fff7d1" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#ffe5c0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#auroraSky)" />
+  <circle cx="1460" cy="200" r="460" fill="url(#auroraGlow)" />
+  <g fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.35">
+    <path d="M0 740 C220 700 420 760 640 720 C860 680 1080 760 1300 720 C1520 680 1760 760 1920 720" />
+    <path d="M0 860 C240 820 480 860 720 830 C960 800 1200 860 1440 830 C1680 800 1840 860 1920 830" />
+    <path d="M0 980 C260 940 520 980 780 950 C1040 920 1300 980 1560 950 C1820 920 1920 950 1920 950" />
+  </g>
+  <g opacity="0.25">
+    <circle cx="320" cy="240" r="120" fill="#f8dffd" />
+    <circle cx="620" cy="180" r="200" fill="#e0f7ff" />
+    <circle cx="1180" cy="320" r="180" fill="#ffe5f2" />
+  </g>
+</svg>

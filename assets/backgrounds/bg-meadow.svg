@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="meadowSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fefefe" />
+      <stop offset="60%" stop-color="#e1f7ff" />
+      <stop offset="100%" stop-color="#c0f7d4" />
+    </linearGradient>
+    <linearGradient id="meadowHills" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4ffc7" />
+      <stop offset="100%" stop-color="#7fdc92" />
+    </linearGradient>
+    <linearGradient id="meadowForeground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a6f1b8" />
+      <stop offset="100%" stop-color="#53c07f" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#meadowSky)" />
+  <circle cx="420" cy="260" r="140" fill="#fff4c1" opacity="0.65" />
+  <circle cx="960" cy="200" r="220" fill="#fff2d8" opacity="0.55" />
+  <path d="M0 760 C260 700 520 780 780 740 C1040 700 1300 780 1560 740 C1820 700 1920 730 1920 730 V1080 H0Z" fill="url(#meadowHills)" />
+  <path d="M0 900 C220 860 500 940 760 900 C1020 860 1260 940 1520 900 C1780 860 1920 900 1920 900 V1080 H0Z" fill="url(#meadowForeground)" />
+  <g fill="#ffffff" opacity="0.5">
+    <circle cx="260" cy="860" r="18" />
+    <circle cx="540" cy="940" r="14" />
+    <circle cx="1140" cy="880" r="20" />
+    <circle cx="1520" cy="940" r="16" />
+  </g>
+</svg>

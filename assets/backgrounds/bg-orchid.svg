@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="orchid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0fb" />
+      <stop offset="50%" stop-color="#f8c8eb" />
+      <stop offset="100%" stop-color="#ffdff7" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#orchid)" />
+  <g opacity="0.18">
+    <circle cx="200" cy="900" r="260" fill="#ffe9f7" />
+    <circle cx="1720" cy="180" r="220" fill="#f4b4ff" />
+    <circle cx="980" cy="540" r="420" fill="#f6c6ff" />
+  </g>
+</svg>

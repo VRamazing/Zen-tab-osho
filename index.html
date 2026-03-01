@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rajneesh Zen Tab</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-bg-tone="light">
+    <div class="background" aria-hidden="true"></div>
+    <div class="background-overlay"></div>
+    <main class="zen-shell" role="main">
+      <header class="zen-header">
+        <span class="badge" id="quoteCategory">Meditation</span>
+        <div class="time-cluster" aria-live="polite">
+          <span class="clock" id="clockDisplay" aria-label="Current time">--:--</span>
+          <span class="date" id="dateDisplay" aria-label="Current date">Weekday, Month 00</span>
+        </div>
+      </header>
+      <section class="quote-card" aria-live="polite">
+        <p class="quote-text" id="quoteText" role="button" tabindex="0">Loading serenity...</p>
+        <div class="quote-meta">
+          <button class="ghost" id="favoriteBtn" aria-pressed="false">Favorite</button>
+        </div>
+      </section>
+      <footer class="zen-footer">
+        <button class="primary" id="newQuoteBtn">New Quote</button>
+      </footer>
+      <div class="osho-emblem" aria-hidden="true"></div>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="mist" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fff8fb" />
+      <stop offset="100%" stop-color="#f0d8ff" />
+    </radialGradient>
+    <linearGradient id="petal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd6e8" />
+      <stop offset="100%" stop-color="#f3a6d4" />
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b5e6f9" />
+      <stop offset="100%" stop-color="#e5f9ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#mist)" />
+  <ellipse cx="960" cy="880" rx="640" ry="180" fill="url(#water)" opacity="0.6" />
+  <g transform="translate(960 640)">
+    <path d="M0 -260 L160 -60 L0 40 L-160 -60 Z" fill="url(#petal)" opacity="0.7" />
+    <path d="M0 -200 L100 -20 L0 80 L-100 -20 Z" fill="url(#petal)" opacity="0.8" />
+    <path d="M0 -150 L60 10 L0 110 L-60 10 Z" fill="url(#petal)" />
+    <circle cx="0" cy="60" r="24" fill="#ffe8a1" />
+  </g>
+  <g opacity="0.2" stroke="#ffffff" stroke-width="2">
+    <path d="M200 260 Q960 120 1720 260" fill="none" />
+    <path d="M180 420 Q960 280 1740 420" fill="none" />
+  </g>
+</svg>
