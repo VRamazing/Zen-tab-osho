@@ -1,11 +1,11 @@
 # Rajneesh Zen Tab
 
-A Manifest V3 Chrome extension that overrides the new tab page with calming imagery, rotating Rajneesh quotes, and a live clock. The UI is intentionally minimal and extensible so additional settings (filters, favorites view, overlays) can be layered in without refactoring the core. The new “Rajneesh Aura” background is an original vector illustration to avoid trademark or likeness issues while still evoking his presence.
+A Manifest V3 Chrome extension that overrides the new tab page with calming imagery, rotating Rajneesh quotes, and a live clock. The UI is intentionally minimal and extensible so additional settings (filters, overlays, exports) can be layered in without refactoring the core. The new “Rajneesh Aura” background is an original vector illustration to avoid trademark or likeness issues while still evoking his presence.
 
 ## Features
 - **Randomized serenity** – pulls a random quote and background on each load while honoring optional daily-lock settings.
 - **Live clock** – updates every 10 seconds (`HH:MM` format) with an easy hook to hide/show it via storage-backed settings.
-- **Favorites** – tap the *Favorite* button to store quotes in `localStorage`; the button state reflects whether the current quote is saved.
+- **Wallpaper capture** – tap *Download Wallpaper* to export the current quote, glass card, and Osho illustration at the active viewport size (controls/time omitted for a cleaner background).
 - **Local assets** – backgrounds and icons are bundled offline, ensuring fast renders with no network requirements.
 - **Future-friendly API** – a small control surface is exposed on `window.rajneeshZenTab` so forthcoming settings UIs can toggle categories, clock visibility, daily mode, or background rotation without touching core logic.
 
@@ -43,10 +43,10 @@ window.rajneeshZenTab.setBackgroundRotation("daily");
 ## Testing Checklist
 - Confirm the extension overrides the new tab without console errors.
 - Reload the tab to ensure quotes/backgrounds randomize (or stay fixed when daily mode is enabled via the API).
-- Toggle favorites and check `localStorage.getItem('rajneeshZenTab.favorites')` to verify persistence.
+- Trigger a wallpaper download and confirm the exported PNG mirrors the on-screen layout (quote card + Osho image) at full resolution without extra UI chrome.
 - Validate the clock updates every 10 seconds and respects the visibility toggle helper.
 
 ## Next Steps
 - Add an options view that writes to the storage-backed settings.
-- Surface a favorites drawer fed by `rajneeshZenTab.favorites`.
 - Introduce background/quote transition animations beyond the current fades if desired.
+- Explore a gallery for previously downloaded wallpapers or a share sheet if Chrome grants the necessary APIs.
